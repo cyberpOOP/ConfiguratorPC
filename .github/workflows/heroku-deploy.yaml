@@ -15,5 +15,5 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "configurator-pc"
-          heroku_email: "vlad002  1135@gmail.com"
+          heroku_email: "vlad0021135@gmail.com"
           usedocker: true
