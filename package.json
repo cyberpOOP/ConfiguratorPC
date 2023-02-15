@@ -7,7 +7,13 @@
   },
   "scripts": {
     "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && npm install",
+    "start:all": "concurrently -k -p \"{name}\" -n \"BACKEND,FRONTEND\" -c \"green,blue\" \"npm:start:backend\" \"npm:start:frontend\" ",
+    "start:backend": "cd backend && npm run start",
     "start:frontend": "cd frontend && npm run start",
     "build:frontend": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
   }
 }
