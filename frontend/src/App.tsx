@@ -1,8 +1,9 @@
+import { SearchInput } from 'components/primitives/search-input';
 
 function App() {
   return (
     <div>
-      Hello, Anton
+      <SearchInput />
     </div>
   );
 }

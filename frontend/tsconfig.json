@@ -1,11 +1,13 @@
 {
     "compilerOptions": {
+        "jsxImportSource": "@emotion/react",
         "esModuleInterop": true,
         "jsx": "react-jsx",
         "baseUrl": "src",
         "paths": {
             "common/*": ["common/*"],
             "components/*": ["components/*"],
+            "pages/*": ["pages/*"],
             "providers/*": ["providers/*"],
             "theme/*": ["theme/*"],
             "utils/*": ["utils/*"]

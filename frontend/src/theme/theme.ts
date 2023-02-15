@@ -1,13 +1,13 @@
 const colors = {
-    background: '#FFFFFF',
-    light: '#FFFFFF',
-    lightHover: '#F1F1F1',
-    text: '#000000',
-    accent: '#B03F00',
-    accentHover: '#9F3900',
-    dark: '#241E51',
-    green: '#1A750B',
-    black: '#000000'
+  background: '#FFFFFF',
+  light: '#FFFFFF',
+  lightHover: '#F1F1F1',
+  text: '#000000',
+  accent: '#B03F00',
+  accentHover: '#9F3900',
+  dark: '#241E51',
+  green: '#1A750B',
+  black: '#000000'
 };
 
 const iconSizes = {
