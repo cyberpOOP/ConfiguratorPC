@@ -4,10 +4,16 @@
         "jsx": "react-jsx",
         "baseUrl": "src",
         "paths": {
+            "common/*": ["common/*"],
+            "components/*": ["components/*"],
+            "providers/*": ["providers/*"],
+            "theme/*": ["theme/*"],
+            "utils/*": ["utils/*"]
         }
     },
     "include": [
         "src",
+        "emotion.d.ts",
         "**/*.ts",
         "**/*.tsx"
     ]
